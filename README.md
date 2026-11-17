@@ -5,12 +5,12 @@
 I'm Adrián, a systems administrator from Palencia, Spain, working my way into offensive security.
 I keep production servers running for a living. At home I build networks so I can attack them and see where they give way.
 
-[![Website](https://img.shields.io/badge/web-adriansalas.tech-FF4B3A?style=flat-square&labelColor=09090B)](https://adriansalas.tech)
-[![LinkedIn](https://img.shields.io/badge/linkedin-adriansalastech-4C8DFF?style=flat-square&labelColor=09090B)](https://www.linkedin.com/in/adriansalastech/)
-[![Email](https://img.shields.io/badge/email-adrian%40adriansalas.tech-F1EEE8?style=flat-square&labelColor=09090B)](mailto:adrian@adriansalas.tech)
-&nbsp;
-![eJPTv2 certified](https://img.shields.io/badge/eJPTv2-certified-3DD68C?style=flat-square&labelColor=09090B)
-![CPTS in progress](https://img.shields.io/badge/CPTS-in_progress-9FEF00?style=flat-square&labelColor=09090B&logo=hackthebox&logoColor=9FEF00)
+[![Website](https://img.shields.io/badge/web-adriansalas.tech-FF4B3A?style=for-the-badge&labelColor=2B2B31)](https://adriansalas.tech)
+[![LinkedIn](https://img.shields.io/badge/linkedin-adriansalastech-4C8DFF?style=for-the-badge&labelColor=2B2B31)](https://www.linkedin.com/in/adriansalastech/)
+[![Email](https://img.shields.io/badge/email-adrian%40adriansalas.tech-F1EEE8?style=for-the-badge&labelColor=2B2B31)](mailto:adrian@adriansalas.tech)
+<br>
+![eJPTv2 certified](https://img.shields.io/badge/eJPTv2-certified-3DD68C?style=for-the-badge&labelColor=2B2B31)
+![CPTS in progress](https://img.shields.io/badge/CPTS-in_progress-9FEF00?style=for-the-badge&labelColor=2B2B31&logo=hackthebox&logoColor=9FEF00)
 
 ---
 
@@ -18,10 +18,10 @@ I keep production servers running for a living. At home I build networks so I ca
 
 ### [palantir](https://github.com/salitress/palantir) — recon that stops where exploitation starts
 
-[![release](https://img.shields.io/github/v/release/salitress/palantir?style=flat-square&labelColor=09090B&color=FF4B3A)](https://github.com/salitress/palantir/releases)
-[![selftest](https://img.shields.io/github/actions/workflow/status/salitress/palantir/selftest.yml?style=flat-square&labelColor=09090B&label=selftest)](https://github.com/salitress/palantir/actions/workflows/selftest.yml)
-[![licence](https://img.shields.io/github/license/salitress/palantir?style=flat-square&labelColor=09090B&color=F1EEE8&label=licence)](https://github.com/salitress/palantir/blob/main/LICENSE)
-[![stars](https://img.shields.io/github/stars/salitress/palantir?style=flat-square&labelColor=09090B&color=F1EEE8)](https://github.com/salitress/palantir/stargazers)
+[![release](https://img.shields.io/github/v/release/salitress/palantir?style=flat&labelColor=2B2B31&color=FF4B3A)](https://github.com/salitress/palantir/releases)
+[![selftest](https://img.shields.io/github/actions/workflow/status/salitress/palantir/selftest.yml?style=flat&labelColor=2B2B31&label=selftest)](https://github.com/salitress/palantir/actions/workflows/selftest.yml)
+[![licence](https://img.shields.io/github/license/salitress/palantir?style=flat&labelColor=2B2B31&color=F1EEE8&label=licence)](https://github.com/salitress/palantir/blob/main/LICENSE)
+[![stars](https://img.shields.io/github/stars/salitress/palantir?style=flat&labelColor=2B2B31&color=F1EEE8)](https://github.com/salitress/palantir/stargazers)
 
 An nmap-driven recon scanner for authorised labs and engagements (HTB, CPTS, OSCP).
 One command takes a target from port discovery to a report:
@@ -38,8 +38,8 @@ A single Python 3 file with a standard-library-only core; every external tool is
 
 ### [kerbrute](https://github.com/salitress/kerbrute) — a fork I fixed before I trusted it
 
-![language](https://img.shields.io/github/languages/top/salitress/kerbrute?style=flat-square&labelColor=09090B&color=4C8DFF)
-![last commit](https://img.shields.io/github/last-commit/salitress/kerbrute?style=flat-square&labelColor=09090B&color=F1EEE8)
+![language](https://img.shields.io/github/languages/top/salitress/kerbrute?style=flat&labelColor=2B2B31&color=4C8DFF)
+![last commit](https://img.shields.io/github/last-commit/salitress/kerbrute?style=flat&labelColor=2B2B31&color=F1EEE8)
 
 I read the whole codebase before changing anything, and found five real bugs:
 
@@ -53,7 +53,7 @@ Then I added what I was missing: `--jitter` to randomise the delay, `--lockout-t
 
 ### [Honeypot SIEM](https://adriansalas.tech/proyectos/honeypot/) — real attackers, watched live
 
-[![dashboard](https://img.shields.io/website?url=https%3A%2F%2Fadriansalas.tech%2Fproyectos%2Fhoneypot%2Fdashboard%2F&label=dashboard&up_message=live&down_message=offline&up_color=3DD68C&style=flat-square&labelColor=09090B)](https://adriansalas.tech/proyectos/honeypot/dashboard/)
+[![dashboard](https://img.shields.io/website?url=https%3A%2F%2Fadriansalas.tech%2Fproyectos%2Fhoneypot%2Fdashboard%2F&label=dashboard&up_message=live&down_message=offline&up_color=3DD68C&style=flat&labelColor=2B2B31)](https://adriansalas.tech/proyectos/honeypot/dashboard/)
 
 A Cowrie SSH honeypot feeding Elasticsearch through native ingest pipelines, with Kibana on top and a Python bot that sends alerts to Telegram. It runs on my own Proxmox and pfSense, and it was my final-year project for ASIR (2026).
 The dashboard is public: **[see who is knocking right now](https://adriansalas.tech/proyectos/honeypot/dashboard/)**.
